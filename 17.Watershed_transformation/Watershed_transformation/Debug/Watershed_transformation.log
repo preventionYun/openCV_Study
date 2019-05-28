@@ -1,0 +1,11 @@
+﻿  main.cpp
+main.obj : error LNK2019: "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) 외부 기호(참조 위치: "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z) 외부 기호(참조 위치: "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) 외부 기호(참조 위치: "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) 외부 기호(참조 위치: "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: "bool __cdecl cv::imwrite(class cv::String const &,class cv::debug_build_guard::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NABVString@1@ABV_InputArray@debug_build_guard@1@ABV?$vector@HV?$allocator@H@std@@@std@@@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: "void __cdecl cv::erode(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::Point_<int>,int,int,class cv::Scalar_<double> const &)" (?erode@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@0V?$Point_@H@1@HHABV?$Scalar_@N@1@@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+C:\openCV_3.4.5\opencv\build\x64\vc15\lib\opencv_world345.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\openCV_3.4.5\opencv\build\x64\vc15\lib\opencv_world345d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\Jiyun\Desktop\openCV\02.myCode\17.Watershed_transformation\Watershed_transformation\Debug\Watershed_transformation.exe : fatal error LNK1120: 7개의 확인할 수 없는 외부 참조입니다.
