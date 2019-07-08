@@ -1,0 +1,22 @@
+﻿  main.cpp
+c:\users\jiyun\desktop\opencv\02.mycode\21.fittingline\fittingline\main.cpp(82): warning C4244: '초기화 중': '_Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+c:\users\jiyun\desktop\opencv\02.mycode\21.fittingline\fittingline\main.cpp(83): warning C4244: '초기화 중': '_Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+c:\users\jiyun\desktop\opencv\02.mycode\21.fittingline\fittingline\main.cpp(84): warning C4244: '초기화 중': '_Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+c:\users\jiyun\desktop\opencv\02.mycode\21.fittingline\fittingline\main.cpp(85): warning C4244: '초기화 중': '_Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+  FittingLine.vcxproj -> C:\Users\Jiyun\Desktop\openCV\02.myCode\21.FittingLine\FittingLine\x64\Debug\FittingLine.exe
